@@ -1,0 +1,51 @@
+body {
+    background-image: linear-gradient(to right, #000, #696969);
+}
+h1 {
+    color: white;
+    text-shadow: 2px 2px 45px;
+    font-family: sans-serif;
+    text-align: center;
+}
+h2 {
+    color: white;
+    text-shadow: 2px 2px 45px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.lista li {
+    color: white;
+    text-shadow: 2px 2px 45px;
+    font-family: sans-serif;
+}
+.lista {
+    display: inline-block;
+    text-align: left;
+    padding-left: 0;
+    list-style-type: disc;
+}
+.list {
+    text-align: center;
+}
+.lista img {
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+}
+.lista li a {
+    color: white;
+    text-shadow: 2px 2px 45px;
+    font-family: sans-serif;
+}
+.café {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140%;
+    padding: 2px;
+}
+.café img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
