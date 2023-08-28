@@ -49,3 +49,16 @@ h2 {
     height: auto;
     border-radius: 50%;
 }
+.lista a:hover {
+    color: white;
+    text-shadow: 2px 2px 25px;
+    font-family: sans-serif;
+    transform: scale(1.1);
+}
+.lista a {
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 25px;
+    transition: 0.6s;
+    display: inline-block;
+}
